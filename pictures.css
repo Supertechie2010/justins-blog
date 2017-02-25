@@ -1,0 +1,105 @@
+header {
+  text-align: center;
+  background: url("media/bckGnd.png");
+  background-size: cover;
+  color: White;
+}
+
+a {
+  color: white;
+}
+
+h1 {
+  font-family: 'Poller One', verdana, arial, sans-serif;
+  font-size: 60px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+button {
+  font-size: 20px;
+  margin: 0 auto;
+  display: block;
+  background: black;
+  color: white;
+}
+
+.headshot {
+  margin: 40px 0px 0px 0px;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+ul {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  font-size: 17px;
+}
+
+article {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+body {
+  background: #222;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-family: 'Poller One', verdana, arial, sans-serif;
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+  article {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5px 7px 0 7px;
+  }
+  .drap {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .holster {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .cat {
+    margin: 0 auto;
+    width: 100%;
+  }
+    .smoke {
+    margin: 0 auto;
+    width: 100%;
+  }
+  button {
+    font-size: 18px;
+    background: black;
+    color: white;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+footer {
+  margin: 5px 0 0 0;
+  text-align: center;
+  color: White;
+}
+
+</style>
